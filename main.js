@@ -50,7 +50,7 @@ function draw(){
     stroke("#FF0000");
 if(scoreRightWrist>0.2)
     {
-circle(rightWrist, rightWristY, 20);
+circle(rightWristX, rightWristY, 20);
 
 if(rightWristY>0 && rightWristY<=100){
     document.getElementById("speed").innerHTML="Speed = 0.5x";
